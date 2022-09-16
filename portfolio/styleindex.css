@@ -1,0 +1,47 @@
+.nav_buttons1{
+        float: right;
+        border: 0cm;
+        cursor: pointer;
+        background-color: rgb(18, 0, 0);
+        font-size: large;
+        color: antiquewhite;
+        padding-top: 15px;
+}
+.nav_buttons1:hover{
+    color: cornflowerblue; 
+}
+h1{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
+.nav_buttons{
+    background-color: rgb(18, 0, 0);
+    overflow: hidden;
+}
+a{
+    float: right;
+}
+img{
+    width: 650px;
+    height: 680px;
+    border-radius: 40%;
+}
+.name_container{
+    float: right;
+    text-decoration: dashed;
+    font-size: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(18, 0, 0);
+}
+.welcome_text{
+    float: right;
+    font-size: 60px;
+    writing-mode: vertical-rl;
+    background-color: rgb(18, 0, 0);
+    color:  rgb(237, 196, 196);
+    
+}
+body{
+    background-color: rgb(240, 158, 158);
+}

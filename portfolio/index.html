@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PortFolio</title>
+    <link rel="stylesheet" href="styleindex.css">
+</head>
+<body>
+        <div class="nav_buttons">
+            <h1>My PortFolio
+            <button class="nav_buttons1" id="page3">My Academics</button><a>  |  </a>
+            <button class="nav_buttons1" id="page2">My Experience</button><a>  |  </a>
+            <button class="nav_buttons1" id="page1">About Me</button>
+            <script type="text/javascript">
+                document.getElementById("page1").onclick= function(){
+                    location.href="aboutme.html";
+                }
+            </script>
+            <script type="text/javascript">
+                document.getElementById("page3").onclick=function(){
+                    location.href="myacademics.html";
+                }
+            </script>
+            <script type="text/javascript">
+                document.getElementById("page2").onclick=function(){
+                    location.href="myexperience.html";
+                }
+            </script>
+        </h1>
+        </div>
+        <div class="pic_container"><img src="images/Snapchat.jpg">
+            <div class="name_container">Shruti <br>Patnaik</div>
+            <div class="welcome_text">Welcome To My Portfolio</div>
+        </div>
+</body>
+</html>

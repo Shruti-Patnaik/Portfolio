@@ -1,0 +1,22 @@
+body{
+    background-image: url(images/experience.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    background-color: antiquewhite;
+    font-size: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table{
+    margin-left: 500px;
+    margin-top: 150px;
+    text-align: center;
+    background-color: rgb(242, 162, 211);
+    width: 540px;
+    height: 180px;
+    border-radius: 10%;
+    font-size: large;
+    opacity: .9;
+}
